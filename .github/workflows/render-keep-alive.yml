@@ -2,7 +2,7 @@ name: Render Keep-Alive Ping
 
 on:
   schedule:
-    - cron: "*/9 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
